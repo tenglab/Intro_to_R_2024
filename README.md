@@ -7,9 +7,9 @@
 
 ------------------------------------------------------------------------
 
-:calendar: May XX - July XX 2024
+:calendar: May 22 - July 17 2024
 
-:alarm_clock: XX:00 - XX:00 pm
+:alarm_clock: 3:00 - 4:00 pm
 
 :office: via [Zoom](https://moffitt.zoom.us/j/)
 
@@ -77,18 +77,20 @@ before you arrive that you can access GitHub.
 
 ## Schedule and Links
 
-- May XX - [Basics of R/RStudio](https://moffitt.hosted.panopto.com/)
-- June XX - [Data import and wrangling part
+- May 22 - [Basics of R/RStudio](https://moffitt.hosted.panopto.com/)
+- May 29 - [Data import and wrangling part
   I](https://moffitt.hosted.panopto.com/)
-- June XX - [Data wrangling part
-  II](https://moffitt.hosted.panopto.com/)
-- June XX - [Visualizations with `ggplot2` part
+- June 5 - [Data wrangling part II &
+  Tidyverse](https://moffitt.hosted.panopto.com/)
+- June 12 - [Visualizations with `ggplot2` part
   I](https://moffitt.hosted.panopto.com/)
-- June XX - [Visualizations with `ggplot2` part
-  II](https://moffitt.hosted.panopto.com/)
-- July XX - [Statistics part I](https://moffitt.hosted.panopto.com/)
-- July XX - [Statistics part II](https://moffitt.hosted.panopto.com/)
-- July XX - [`rmarkdown`](https://moffitt.hosted.panopto.com/)
+- June 19 - [Statistical testing of means and
+  visualizations](https://moffitt.hosted.panopto.com/)
+- June 26 - [Regression modeling and
+  visualizations](https://moffitt.hosted.panopto.com/)
+- July 10 - [Categorial data analysis and survival
+  analysis](https://moffitt.hosted.panopto.com/)
+- July 17 - [`rmarkdown`](https://moffitt.hosted.panopto.com/)
 
 ## Instructors
 
