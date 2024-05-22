@@ -71,7 +71,7 @@ you used R but are new to the `tidyverse` framework?
 ## Materials
 
 Materials will be made available on
-[GitHub](https://github.com/FridleyLab/Intro_to_R_2023/).  
+[GitHub](https://github.com/tenglab/Intro_to_R_2024).  
 If you are using an organization-issued laptop, you may want to verify
 before you arrive that you can access GitHub.
 
