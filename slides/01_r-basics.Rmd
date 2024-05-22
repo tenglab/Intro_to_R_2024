@@ -3,7 +3,7 @@ title: "Getting staRted"
 author: 
   - Jordan Creed
 institute: "Moffitt Cancer Center"
-date: 'May 31, 2023'
+date: 'May 22, 2024'
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -125,7 +125,7 @@ class: inverse center middle
     *   use the cloud mirror
     *   need to update with each major release (about once a year)
 
-*   RStudio can be downloaded from the rstudio site (http://www.rstudio.com/download)
+*   RStudio can be downloaded from the Posit site (https://posit.co/download/rstudio-desktop/)
     *   updated regularly
 
 ---
@@ -172,7 +172,7 @@ being that `dataframes` have rows and `tibbles` do not
 
 <img src="01_r-basics_files/figure-html/rstudio_cheatsheet.png" width="65%" class="center"/>
 
-[r cheatsheets](https://www.rstudio.com/resources/cheatsheets/)
+[r cheatsheets](https://posit.co/resources/cheatsheets/)
 
 ---
 ### Packges
@@ -210,7 +210,7 @@ and fill out the information
 .pull-left[
 * GitHub is a code hosting platform used for collaborating and code sharing
 * Materials and information for the course can be found on the class GitHub page
-* Class GitHub: [https://github.com/FridleyLab/Intro_to_R_2023](https://github.com/FridleyLab/Intro_to_R_2023)
+* Class GitHub: [https://github.com/tenglab/Intro_to_R_2024](https://github.com/tenglab/Intro_to_R_2024)
 ]
 
 .pull-right[<img src="01_r-basics_files/figure-html/octocat.png" width="75%" class="center"/>]
