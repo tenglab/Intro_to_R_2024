@@ -9,7 +9,7 @@
 
 :calendar: May 22 - July 17 2024
 
-:alarm_clock: 3:00 - 4:00 pm
+:alarm_clock: 3:00 - 3:50 pm
 
 :office: via [Zoom](https://moffitt.zoom.us/j/)
 
@@ -42,7 +42,7 @@ found in the class Moodle.
 
 ## Questions?
 
-Feel free to ask questions in the [GitHub Issues](https://github.com).
+Feel free to ask questions in the [GitHub Issues](https://github.com/tenglab/Intro_to_R_2024/issues).
 
 ## Overview
 
