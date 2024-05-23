@@ -42,7 +42,7 @@ found in the class Moodle.
 
 ## Questions?
 
-Feel free to ask questions in the [GitHub Issues](https://github.com/tenglab/Intro_to_R_2024/issues).
+Feel free to ask questions in the [GitHub Issues](https://github.com).
 
 ## Overview
 
@@ -77,7 +77,8 @@ before you arrive that you can access GitHub.
 
 ## Schedule and Links
 
-- May 22 - [Basics of R/RStudio](https://moffitt.hosted.panopto.com/)
+- May 22 - [Basics of
+  R/RStudio](https://moffitt.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=12345e7b-23b0-46aa-9eb4-b178015265bc)
 - May 29 - [Data import and wrangling part
   I](https://moffitt.hosted.panopto.com/)
 - June 5 - [Data wrangling part II &
