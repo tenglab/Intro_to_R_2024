@@ -4,7 +4,7 @@ subtitle: "ggplot2"
 author: 
   - Ram Thapa
 institute: "Moffitt Cancer Center"
-date: "June 21, 2023"
+date: "June 12, 2024"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -969,12 +969,12 @@ ggplot(
 ---
 ## Useful resources
 
-- [ggplot2 cheatsheet](https://github.com/rstudio/cheatsheets/blob/master/data-visualization-2.1.pdf) from RStudio
+- [ggplot2 cheatsheet](https://rstudio.github.io/cheatsheets/html/data-visualization.html) from RStudio
 
 - [ggplot2 documentation](https://ggplot2.tidyverse.org/)
 
 - [ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/), 3rd edition
 
-- [Data visualization chapter from R for Data Science book](https://r4ds.had.co.nz/data-visualisation.html)
+- [Data visualization chapter from R for Data Science book](https://r4ds.hadley.nz/data-visualize.html)
 
 - [Gallery of code examples](https://r-charts.com/ggplot2/) of graphs made with `{ggplot2}` package
