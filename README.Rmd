@@ -89,7 +89,7 @@ arrive that you can access GitHub.
 ## Schedule and Links 
 
 *   May 22 - [Basics of R/RStudio](https://moffitt.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=12345e7b-23b0-46aa-9eb4-b178015265bc)
-*   May 29 - [Data import and wrangling part I](https://moffitt.hosted.panopto.com/)
+*   May 29 - [Data import and wrangling part I](https://moffitt.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=73851cd2-6dbe-426a-a5da-b17f014e8187)
 *   June 5 - [Data wrangling part II & Tidyverse](https://moffitt.hosted.panopto.com/)
 *   June 12 - [Visualizations with `ggplot2` part I](https://moffitt.hosted.panopto.com/)
 *   June 19 - [Statistical testing of means and visualizations](https://moffitt.hosted.panopto.com/)
