@@ -82,7 +82,7 @@ before you arrive that you can access GitHub.
 - May 29 - [Data import and wrangling part
   I](https://moffitt.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=73851cd2-6dbe-426a-a5da-b17f014e8187)
 - June 5 - [Data wrangling part II &
-  Tidyverse](https://moffitt.hosted.panopto.com/)
+  Tidyverse](https://moffitt.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9a8801ce-bedf-4ae7-8bed-b186014bd7bf)
 - June 12 - [Visualizations with `ggplot2` part
   I](https://moffitt.hosted.panopto.com/)
 - June 19 - [Statistical testing of means and
