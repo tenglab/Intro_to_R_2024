@@ -139,14 +139,21 @@ Artwork by @allison_horst
 
 The basic idea is that a statistical graphic can be created in a layered fashion, starting with a layer showing the data then adding layers of graphical objects, annotations and statistical summaries
 
-.w-40.center[
-![](04_visualizations_files/figure-html/ggplot_scheme.png)
-]
+Components
+- Layer
+  * Data
+  * Mapping
+  * Geometric object (geom)
+  * Statistical transformation (stat)
+  * Position adjustment (position)
+- Scale
+- Coordinate system (coord)
+- Faceting (facet)
 
 ---
 ### Data layer
 
-Data to be plotted
+Data (information) to be visualized
 
 {`ggplot2`} prefers data to be in *tidy* format 
 
@@ -193,6 +200,8 @@ ggplot(data = tcga_clinical)
 
 ### Aesthetic mapping layer
 
+Mapping defines how the variables are applied to the plot 
+
 Aesthetic layer or `aes()` for short links variables in data to graphical objects (e.g. by describing position, size, color, etc)
 
 Each aesthetic can be mapped to a variable (or set to a constant value) by associating the name of the aesthetic to the name of the variable inside `aes()`
@@ -220,7 +229,7 @@ ggplot(
 ---
 ### Geometries layer
 
-Geometric object or `geom` defines the visual object and determines the type of graphs 
+Geometric object or `geom` defines the visual object and determines the type of graphs we create
 
 .panelset[
 .panel[.panel-name[R Code]
@@ -258,6 +267,7 @@ Aesthetic | Description
 `alpha` | transparency
 `linetype` | line dash pattern
 
+Each `geom` can only display certain aesthetics (point `geom` has position, color, shape, and size aesthetics)
 ---
 #### Mapping onto color aesthetic
 
