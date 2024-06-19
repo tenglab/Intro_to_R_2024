@@ -4,7 +4,7 @@
     <title>Statistical tests</title>
     <meta charset="utf-8" />
     <meta name="author" content="Ram Thapa" />
-    <meta name="date" content="2024-06-20" />
+    <meta name="date" content="2024-06-19" />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
     <script src="libs/tile-view/tile-view.js"></script>
@@ -43,7 +43,7 @@ Ram Thapa&lt;br&gt;
 ]
 
 .talk-date.moffitt-gray[
-June 20, 2024
+June 19, 2024
 ]
 ]
 
@@ -149,8 +149,7 @@ tcga_gene_exp &lt;- read_delim(here::here("data", "tcga_gene_exp.txt"))
 
 # Merge clinical and expression data
 clinical_exprs &lt;- left_join(
-  clinical, tcga_gene_exp, by = "bcr_patient_barcode") %&gt;% 
-  mutate(stage = str_remove(stage, "A$|B$|C$"))
+  clinical, tcga_gene_exp, by = "bcr_patient_barcode")
 ```
 
 ---
@@ -168,7 +167,7 @@ ggplot(clinical_exprs , aes(gender, PTEN_exp, fill = gender))  +
   stat_summary(
     fun = "mean", geom = "point", color = "blue", size = 3) +
   scale_fill_brewer(palette = "Accent") +
-  labs(title = "PTEN expression" , x = "Gender", y = "expression") +
+  labs(title = "PTEN expression" , x = "Gender", y = "Gene expression") +
   theme(legend.position = "none")  
 ```
 ]
@@ -369,7 +368,7 @@ W = 93990, p-value = 7.221e-07
 alternative hypothesis: true location shift is not equal to 0
 ```
 
-The p-value is very low so we reject the null hypothesis of no difference (0 location shift) 
+The p-value is very low so we reject the null hypothesis and conclude that the BUB1 expression of male and female are *nonidentical* populations
 
 ---
 

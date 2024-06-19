@@ -4,7 +4,7 @@ subtitle: "Tests of mean"
 author: 
   - Ram Thapa
 institute: "Moffitt Cancer Center"
-date: "June 20, 2024"
+date: "June 19, 2024"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -175,8 +175,7 @@ tcga_gene_exp <- read_delim(here::here("data", "tcga_gene_exp.txt"))
 
 # Merge clinical and expression data
 clinical_exprs <- left_join(
-  clinical, tcga_gene_exp, by = "bcr_patient_barcode") %>% 
-  mutate(stage = str_remove(stage, "A$|B$|C$"))
+  clinical, tcga_gene_exp, by = "bcr_patient_barcode")
 ```
 
 ---
@@ -195,7 +194,7 @@ ggplot(clinical_exprs , aes(gender, PTEN_exp, fill = gender))  +
   stat_summary(
     fun = "mean", geom = "point", color = "blue", size = 3) +
   scale_fill_brewer(palette = "Accent") +
-  labs(title = "PTEN expression" , x = "Gender", y = "expression") +
+  labs(title = "PTEN expression" , x = "Gender", y = "Gene expression") +
   theme(legend.position = "none")  
 ```
 ]
@@ -362,7 +361,7 @@ wilcox_gender <- wilcox.test(
 wilcox_gender 
 ```
 
-The p-value is very low so we reject the null hypothesis of no difference (0 location shift) 
+The p-value is very low so we reject the null hypothesis and conclude that the BUB1 expression of male and female are *nonidentical* populations
 
 ---
 
