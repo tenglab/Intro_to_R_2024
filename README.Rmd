@@ -91,9 +91,9 @@ arrive that you can access GitHub.
 *   May 22 - [Basics of R/RStudio](https://moffitt.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=12345e7b-23b0-46aa-9eb4-b178015265bc)
 *   May 29 - [Data import and wrangling part I](https://moffitt.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=73851cd2-6dbe-426a-a5da-b17f014e8187)
 *   June 5 - [Data wrangling part II & Tidyverse](https://moffitt.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9a8801ce-bedf-4ae7-8bed-b186014bd7bf)
-*   June 12 - [Visualizations with `ggplot2` part I](https://moffitt.hosted.panopto.com/)
-*   June 19 - [Statistical testing of means and visualizations](https://moffitt.hosted.panopto.com/)
-*   June 26 - [Regression modeling and visualizations](https://moffitt.hosted.panopto.com/)
+*   June 12 - [Visualizations with `ggplot2` part I](https://moffitt.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d2d359a4-e010-41f0-8fd6-b18d01572d51)
+*   June 19 - [Statistical testing of means and visualizations](https://moffitt.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5fd442fc-5cf4-4082-ace7-b19401495ed3)
+*   June 26 - [Regression modeling and visualizations](https://moffitt.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9f51dbc1-40fa-41f2-99b5-b19b0153ce66)
 *   July 10 - [Categorial data analysis and survival analysis](https://moffitt.hosted.panopto.com/)
 *   July 17 - [`rmarkdown`](https://moffitt.hosted.panopto.com/)
 

@@ -84,11 +84,11 @@ before you arrive that you can access GitHub.
 - June 5 - [Data wrangling part II &
   Tidyverse](https://moffitt.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9a8801ce-bedf-4ae7-8bed-b186014bd7bf)
 - June 12 - [Visualizations with `ggplot2` part
-  I](https://moffitt.hosted.panopto.com/)
+  I](https://moffitt.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d2d359a4-e010-41f0-8fd6-b18d01572d51)
 - June 19 - [Statistical testing of means and
-  visualizations](https://moffitt.hosted.panopto.com/)
+  visualizations](https://moffitt.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5fd442fc-5cf4-4082-ace7-b19401495ed3)
 - June 26 - [Regression modeling and
-  visualizations](https://moffitt.hosted.panopto.com/)
+  visualizations](https://moffitt.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9f51dbc1-40fa-41f2-99b5-b19b0153ce66)
 - July 10 - [Categorial data analysis and survival
   analysis](https://moffitt.hosted.panopto.com/)
 - July 17 - [`rmarkdown`](https://moffitt.hosted.panopto.com/)
