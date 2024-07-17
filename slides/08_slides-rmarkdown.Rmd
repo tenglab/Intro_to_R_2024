@@ -1,10 +1,10 @@
 ---
 title: "Rmarkdown"
-subtitle: "Creating interactive documents"
+subtitle: "and a little bit of Quarto"
 author: 
   - Jordan Creed
 institute: "Moffitt Cancer Center"
-date: 'July 20, 2022'
+date: 'July 17, 2024'
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -126,12 +126,17 @@ Allows you to share code, comments and outputs easily
 <img src="08_slides-rmarkdown_files/figure-html/rmarkdown-diagram.png" width="100%" class="center"/>
 
 ---
+## Quarto
+
+<img src="08_slides-rmarkdown_files/figure-html/quarto-workflow.png" width="100%" align="right"/>
+
+---
 ## Formatted Text 
 
-Rmarkdown uses regular markdown rules/syntax.
+Rmarkdown/quarto use regular markdown rules/syntax.
 
-When you `knit` your document the final output will display according 
-to the formatting rules on your `.Rmd`
+When you `knit`/`render` your document the final output will display according 
+to the formatting rules on your `.Rmd`/`.qmd`
 
 .pull-left[
 Text
@@ -169,14 +174,18 @@ Insert images
 
 Code can be written as either code chunks or inline code
 
-Code chunks can be named: ```` ```{r chunk-name} ````
+Code chunks: ```` ```{r} ```` and ```` ``` ````
 
-Output can be modified by chunk options placed are wrapped around ```` ```{r} ```` and ```` ``` ````
+Output can be modified by chunk options- for Rmarkdown these are placed inside the
+curly brackets `{r` and `}` and in Quarto they are placed at the beginning of a chunk
+and identified by ```` #| ````
+
+Options: 
   * `eval = FALSE` keeps code from being evaluated 
   * `echo = FALSE` keeps code from being displayed (output is still displayed)
   * `message = FALSE` and `warning = FALSE` keeps messages/warnings from being displayed
   * `results = 'hide'` and `fig.show = 'hide'` hides printed output and plots
-  
+
 ---
 ## Caching
 
@@ -186,7 +195,7 @@ When a document is knit - it starts from a clean slate
 
 However you can cache a code chunk using the `cache = TRUE` option
   * `r emo::ji("warning")` Only that code chunk will be cached `r emo::ji("warning")`
-  * `dependson` option can be given a charactr vector of EVERY chunk that the cached chunk depends on 
+  * `dependson` option can be given a character vector of EVERY chunk that the cached chunk depends on 
   
 ---
 ## YAML
@@ -232,4 +241,11 @@ clinical %>%
 <img src="08_slides-rmarkdown_files/figure-html/rmarkdown-cheatsheet.png" width="65%" class="center"/>
 
 [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/basics.html)
+
+---
+## 
+
+<img src="08_slides-rmarkdown_files/figure-html/quarto_cheatsheet.png" width="65%" class="center"/>
+
+[Quarto cheatsheet](https://rstudio.github.io/cheatsheets/quarto.pdf)
 
