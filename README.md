@@ -90,7 +90,7 @@ before you arrive that you can access GitHub.
 - June 26 - [Regression modeling and
   visualizations](https://moffitt.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9f51dbc1-40fa-41f2-99b5-b19b0153ce66)
 - July 10 - [Categorial data analysis and survival
-  analysis](https://moffitt.hosted.panopto.com/)
+  analysis](https://moffitt.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=390532d8-d73c-4c48-9e1b-b1a901572818)
 - July 17 - [`rmarkdown`](https://moffitt.hosted.panopto.com/)
 
 ## Instructors

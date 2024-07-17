@@ -94,7 +94,7 @@ arrive that you can access GitHub.
 *   June 12 - [Visualizations with `ggplot2` part I](https://moffitt.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d2d359a4-e010-41f0-8fd6-b18d01572d51)
 *   June 19 - [Statistical testing of means and visualizations](https://moffitt.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5fd442fc-5cf4-4082-ace7-b19401495ed3)
 *   June 26 - [Regression modeling and visualizations](https://moffitt.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9f51dbc1-40fa-41f2-99b5-b19b0153ce66)
-*   July 10 - [Categorial data analysis and survival analysis](https://moffitt.hosted.panopto.com/)
+*   July 10 - [Categorial data analysis and survival analysis](https://moffitt.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=390532d8-d73c-4c48-9e1b-b1a901572818)
 *   July 17 - [`rmarkdown`](https://moffitt.hosted.panopto.com/)
 
 ## Instructors
